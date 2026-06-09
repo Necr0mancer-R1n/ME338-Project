@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# datasets / generated results
+VOCdevkit/
+mAP/
+
+# model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# logs / env
+*.log
+.env
