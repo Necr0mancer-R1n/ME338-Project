@@ -1,22 +1,38 @@
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# OS / editor
+# Virtual environments
+.venv/
+env/
+.env
+
+# OS / editor files
 .DS_Store
 .vscode/
 .idea/
 
-# datasets / generated results
+# Datasets
+cifar-10-batches-py/
+cifar-10-python.tar.gz
+mnist_dataset/
+mnist_dataset.zip
+**/cifar-10-batches-py/
+**/cifar-10-python.tar.gz
+**/mnist_dataset/
+**/mnist_dataset.zip
 VOCdevkit/
-mAP/
+**/VOCdevkit/
 
-# model checkpoints
+# Model checkpoints
 *.pt
 *.pth
 *.ckpt
 
-# logs / env
+# Generated outputs
+mAP/
+**/mAP/
+
+# Logs
 *.log
-.env
